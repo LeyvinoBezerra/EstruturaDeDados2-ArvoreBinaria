@@ -12,13 +12,7 @@ public class ArvoreBinaria {
     }
 
 
-    public No getRaiz() {
-        return raiz;
-    }
 
-    public void setRaiz(No raiz) {
-        this.raiz = raiz;
-    }
 
     public void ordem(){
 

@@ -72,7 +72,7 @@ public class ArvoreBinaria {
 
         // No atual
         if(no != null){
-            Queue<No> fila = new LinkedList<No>();
+            Queue<No> fila = new LinkedList<>();
             fila.add(no);
             while(!fila.isEmpty()){
                 No atual = fila.remove();

@@ -77,5 +77,17 @@ public class ArvoreBinaria {
 
         }
     }
+    public int porAltura() {
+        return porAltura(raiz);
+    }
+
+    private int porAltura(No no) {
+        if (no == null) {
+            return 0;
+        }
+        int alturaEsq = porAltura(no.esq);
+        int alturaDir = porAltura(no.dir);
+        return Math.max(alturaEsq, alturaDir) + 1;
+    }
 
 }

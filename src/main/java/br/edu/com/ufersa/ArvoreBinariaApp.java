@@ -26,5 +26,15 @@ public class ArvoreBinariaApp {
         System.out.println("\nPercurso por nível:");
         arvoreBinaria.porNivel();
 
+        No raiz = new No(10);
+        raiz.esq = new No(5);
+        raiz.dir = new No(20);
+
+        ArvoreBinaria arvore = new ArvoreBinaria(raiz);
+
+        System.out.println("Altura da árvore: " + arvore.porAltura());
+
+
+
     }
 }

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class ArvoreBinaria {
-    private No raiz;
+    private final No raiz;
 
     public ArvoreBinaria(No no) {
 
